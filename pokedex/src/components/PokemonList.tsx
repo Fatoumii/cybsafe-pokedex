@@ -3,6 +3,6 @@ import React from 'react';
 
 export const PokemonList = () => {
   return(
-    <Grid></Grid>
+    <Grid>List of pokesss</Grid>
   )
 }
