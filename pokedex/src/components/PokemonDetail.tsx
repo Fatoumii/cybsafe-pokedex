@@ -47,9 +47,10 @@ useEffect(() => {
          <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{display: 'inline-flex', justifyContent: 'center', alignItems: 'center'}}>
             <h3 style={{ fontSize: '150%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
              {name?.toUpperCase()}</h3>
-            <Box component="img" sx={{ height: 300, width: 450}}
-             alt={`An image of ${name}`}
-             src={pokemonDetail?.sprite}
+            <Box component="img" 
+              sx={{ height: 300, width: 450}}
+              alt={`An image of ${name}`}
+              src={pokemonDetail?.sprite}
             />
           </AccordionSummary>
 
