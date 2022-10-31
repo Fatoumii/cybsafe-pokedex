@@ -7,7 +7,7 @@ import useAxios from 'axios-hooks';
 
 export const Home = () => {
 
-  const [{loading, data, error}, refetch] = useAxios(("https://pokeapi.co/api/v2/pokemon"));
+  const [{loading, data, error}] = useAxios(("https://pokeapi.co/api/v2/pokemon"));
   const [pokemonName, setPokemonName] = useState('');
 
   return(

@@ -22,7 +22,7 @@ export const PokemonList = ({data, loading, error} : PokemonListProps) => {
   return (
      <Grid>
       <p style={{color: 'whitesmoke'}}>Select a pokemon below to see more details</p>
-        {data.results.map((pokemon : any, index: number) => {
+        {data.results.map((pokemon : Pokemon) => {
           return(
               <Paper style={{padding: '5%', margin: 15, border: '5px solid #803500'}}>
                 <Link to={`/profile/${pokemon.name}`} style={{fontSize:'120%', color: 'black'}} >
