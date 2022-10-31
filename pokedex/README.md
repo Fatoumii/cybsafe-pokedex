@@ -24,6 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 If I had more time I would have done the following:
 
-- Add test files for each component using react testing library to ensure data had been rendered on the page. Also that buttons were redirecting correctly showing appropriate data
+- Add test files for each component (mocking queries where necessary) using react testing library to ensure data had been rendered on the page. Also that buttons were redirecting correctly showing appropriate data, via aria-labels/data-test-id or simple text.
 - Pulled out all inline styling into their own files and styled hyperlinks correctly
 - Figured out how to work prettier :(
